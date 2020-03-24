@@ -21,5 +21,3 @@ def add(str):
         raise Exception('negatives not allowed: {}'.format(neg_str))
 
     return sum(str_list)
-
-#print(add(''))
